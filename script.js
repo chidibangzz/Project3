@@ -43,7 +43,14 @@ function getOptions() {
  }
 
 
-generatePassword()
+generatePassword() {
+  if (var z = 0; z < specialChar.length; z++) {
+      var specialLetter = specialChar[Math.floor(Math.random() * specialChar.length)];
+      console.log(specialLetter);
+     }
+
+    
+
 
 
 //for (var i = 0; i < 9; i++) {
